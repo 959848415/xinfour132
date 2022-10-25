@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>商场首页</title>
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/jquery.1.11.1.min.js"></script>
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <div class="inner whiteGL">
+            <div class="left">
+                <a class="mix" href="">商城-学习专用</a>
+            </div>
+            <div class="right">
+                <a class="mix" href="login.html">登录</a>
+                <a href="register.html">注册</a>
+                <a class="max" href="">消息通知</a>
+                <a href="trolley.html"><img src="img/cart.jpg" alt=""></a>
+            </div>
+        </div>
+    </div>
+    <div class="logo">
+        <div class="logo_left">
+            <div>
+                <a href="javascript:void(0);" title="小米官网"><img class="xiaomi" src="img/logo.jpg"></a>
+            </div>
+        </div>
+        <ul class="logo_center orangeGL">
+            <a href=""></a>
+            <a href=""></a>
+            <a href=""></a>
+            <a href=""></a>
+            <a href=""></a>
+            <a href=""></a>
+            <a href=""></a>
+            <a href=""></a>
+            <a href=""></a>
+            <a href=""></a>
+        </ul>
+        <formv class="logo_right">
+            <div class="logo_input"><input type="text">
+                <div class="logo_input_div">
+                    <a class="logo_input_a" href=""></a>
+                    <a class="logo_input_a" href=""></a>
+                </div>
+
+
+            </div>
+            <a class="logo_right_a"><img src="img/find.jpg"></a>
+            
+        </formv>
+    </div>
+    <div class="scroll">
+        <ul>
+            <li style="opacity: 0;"><a href="plus5.html"><img src="img/scroll_01.jpg" alt=""></a></li>
+            <li style="opacity: 0;"><a href="plus5.html"><img src="img/scroll_02.jpg" alt=""></a></li>
+            <li style="opacity: 0;"><a href="plus5.html"><img src="img/scroll_03.jpg" alt=""></a></li>
+            <li style="opacity: 0;"><a href="plus5.html"><img src="img/scroll_04.jpg" alt=""></a></li>
+            <li style="opacity: 0;"><a href="plus5.html"><img src="img/scroll_05.jpg" alt=""></a></li>
+            <li style="opacity: 1;"><a href="plus5.html"><img src="img/scroll_06.jpg" alt=""></a></li>
+        </ul>
+        <div class="scroll_dot">
+            <span class=""></span>
+            <span class=""></span>
+            <span class=""></span>
+            <span class=""></span>
+            <span class=""></span>
+            <span class="scroll_dot_span"></span>
+        </div>
+        <div class="scroll_arrows">
+            <a href="javascript:void(0);"><span class="left scroll_arrows_back">〈</span></a>
+            <a href="javascript:void(0);"><span class="right scroll_arrows_back">〉</span></a>
+        </div>
+        <div class="scroll_left">
+            <ul class="scr-ul">
+                <li class="scr_li"><a href=""></a><i class="scr_i"></i></li>
+                <li class="scr_li"><a href=""></a><i class="scr_i"></i></li>
+                <li class="scr_li"><a href=""></a><i class="scr_i"></i></li>
+                <li class="scr_li"><a href=""></a><i class="scr_i"></i></li>
+                <li class="scr_li"><a href=""></a><i class="scr_i"></i></li>
+                <li class="scr_li"><a href=""></a><i class="scr_i"></i></li>
+                <li class="scr_li"><a href=""></a><i class="scr_i"></i></li>
+                <li class="scr_li"><a href=""></a><i class="scr_i"></i></li>
+                <li class="scr_li"><a href=""></a><i class="scr_i"></i></li>
+                <li class="scr_li"><a href=""></a><i class="scr_i"></i></li>
+            </ul>
+        </div>
+        <!--<div class="scroll_right"><img src="img/scroll_02.jpg"></div>-->
+    </div>
+    <div class="bot">
+        <div class="bot_max">
+            <div class="bot_first">
+                <div class="bot_one">
+                    <div><a href=""><img src="img/bot_01.jpg"></a></div>
+                    <div><a href=""><img src="img/bot_02.jpg"></a></div>
+                    <div><a href=""><img src="img/bot_03.jpg"></a></div>
+                    <div><a href=""><img src="img/bot_04.jpg"></a></div>
+                    <div><a href=""><img src="img/bot_05.jpg"></a></div>
+                    <div><a href=""><img src="img/bot_06.jpg"></a></div>
+                </div>
+
+            </div>
+            <a href="#"><img src="img/3_02.jpg" alt=""></a>
+            <a href="#"><img src="img/3_03.jpg" alt=""></a>
+            <a href="#"><img src="img/3_04.jpg" alt=""></a>
+        </div>
+    </div>
+    <div class="time">
+        <div class="H"></div>
+        <div class="time_in">
+            <div><a href=""><img class="time_min" src="img/4_01.jpg" alt=""></a></div>
+            <div><a href=""><img src="img/4_02.jpg" alt=""></a></div>
+            <div><a href=""><img src="img/4_03.jpg" alt=""></a></div>
+            <div><a href=""><img src="img/4_04.jpg" alt=""></a></div>
+            <div><a href=""><img src="img/4_05.jpg" alt=""></a></div>
+        </div>
+    </div>
+    <script>
+        var abc = document.getElementsByClassName("script_capa_box_top_ar");
+        console.log("abc:" + abc);
+        console.log("abc[0]" + abc[0]);
+        var box = document.getElementsByClassName("scrip_capa_box");
+        console.log("box:" + box);
+        console.log("box[0]:" + box[0]);
+        for (var i = 0; i < abc.length; i++) {
+            abc[i].index = i;
+            abc[i].onmouseover = function () {
+                for (var j = 0; j < abc.length; j++) {
+                    box[j].className = "capa_box scrip_capa_box";
+                }
+                box[this.index].className = "capa_box scrip_capa_box scrip_capa_box_on"
+                console.log("this.index:" + this.index);
+            }
+        }
+        var n = 0;
+
+        /*setInterval(function () {
+            n++;
+             if(n > $(".scroll ul li").length){
+             n=0;
+             }
+            $(".scroll ul li").css("opacity","0").eq(n).css("opacity","1")
+        },100)*/
+        var t = setInterval(fun, 1000);
+        function fun() {
+            n++;
+            if (n > $(".scroll>ul>li").length - 1) {
+                n = 0;
+            }
+            $(".scroll>ul>li").css("opacity", "0").eq(n).css("opacity", "1")
+            $(".scroll_dot span").eq(n).addClass("scroll_dot_span").siblings().removeClass("scroll_dot_span");
+        }
+        $(".scroll_arrows .left").click(function () {
+            n -= 2;
+            if (n < -1) {
+                n = 4;
+            }
+            fun()
+
+        });
+        $(".scroll_arrows .right").click(function () {
+            fun()
+        });
+        $(".scroll_dot span").click(function () {
+            console.log($(this).index());
+            n = $(this).index() - 1;
+            $(this).siblings().removeClass("scroll_dot_span").end().addClass("scroll_dot_span");
+            fun()
+        }); $(".scroll").hover(function () {
+            clearInterval(t);
+        },
+            function () {
+                t = setInterval(fun, 1000);
+            });
+
+    </script>
+    <script>
+        // <![CDATA[  <-- For SVG support
+        if ('WebSocket' in window) {
+            (function () {
+                function refreshCSS() {
+                    var sheets = [].slice.call(document.getElementsByTagName("link"));
+                    var head = document.getElementsByTagName("head")[0];
+                    for (var i = 0; i < sheets.length; ++i) {
+                        var elem = sheets[i];
+                        var parent = elem.parentElement || head;
+                        parent.removeChild(elem);
+                        var rel = elem.rel;
+                        if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+                            var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+                            elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+                        }
+                        parent.appendChild(elem);
+                    }
+                }
+                var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+                var address = protocol + window.location.host + window.location.pathname + '/ws';
+                var socket = new WebSocket(address);
+                socket.onmessage = function (msg) {
+                    if (msg.data == 'reload') window.location.reload();
+                    else if (msg.data == 'refreshcss') refreshCSS();
+                };
+                if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+                    console.log('Live reload enabled.');
+                    sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+                }
+            })();
+        }
+        else {
+            console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+        }
+        // ]]>
+    </script>
+</body>
+
+</html>
